@@ -1,6 +1,5 @@
 <?php
-$t=date("H");
-if($t<"20"){
-    echo "have a good day";
-}
-?>
+$newarr2= array("INT220"=>"PHP", "INT221"=>"Laravel","INT222"=>"Node");
+// //printing keys only
+// print_r(array_keys($newarr2));
+// print_r($newarr2);

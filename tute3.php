@@ -7,5 +7,19 @@ $arr=array("Ram","shyam","mohan");
 print_r(array_merge($course,$arr));
 
 
+// pass by value
+function add($a){
+    $a+=5;
+}
+$a=10;
+add($a);
+echo $a."\n";
+
+// pass by reference
+function add2(&$a){
+    $a+=5;
+}
+add2($a);
+echo ($a)."\n";
 
 ?>

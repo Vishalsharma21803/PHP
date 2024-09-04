@@ -22,4 +22,10 @@ function add2(&$a){
 add2($a);
 echo ($a)."\n";
 
+function sum(int $b,int $c){
+    return $b+$c;
+}
+echo sum(10,23)."\n";
+
+
 ?>

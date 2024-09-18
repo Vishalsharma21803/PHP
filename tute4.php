@@ -31,6 +31,14 @@ print_r(array_merge($arr,$course));
 //array_pop():removes the last element of the array
 //array_reverse(): reverse the array
 //array_search():
-
+//array_column():returns the values from a single column in the input array
+$arr2=array(
+    array('name'=>"ram",200,1000),
+    array('name'=>"shyam",200,1555),
+    array('name'=>"mohan",200,50000)
+    // in PHP we use array() function to create an array
+);
+$name=array_column($arr2,'name');
+print_r($name);
 
 ?>
